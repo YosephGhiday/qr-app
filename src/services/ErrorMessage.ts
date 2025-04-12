@@ -1,7 +1,6 @@
 export default class ErrorMessage {
   static getErrorMessage(response: any) {
     let errorMessage;
-    console.log(response);
     switch (response.status) {
       case "ERR_NETWORK":
       case "ECONNABORTED":
